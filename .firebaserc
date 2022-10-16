@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "inventario-8235e": {
+      "hosting": {
+        "Inventory_V2": [
+          "inventario-8235e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "inventario-8235e"
+  }
+}

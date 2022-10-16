@@ -94,8 +94,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Inventory_V2:build:production",
+            "firebaseProject": "inventario-8235e",
+            "firebaseHostingSite": "inventario-8235e"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "67180575-1345-4337-b96c-7588d1d42c31"
   }
 }
